@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Iweb_Loginfix>
+            <version>0.1.0</version>
+        </Iweb_Loginfix>
+    </modules>
+
+    <global>
+        <models>
+            <customer>
+                <rewrite>
+                    <session>Iweb_Loginfix_Model_Customer_Session</session>
+                </rewrite>
+            </customer>
+        </models>
+    </global>
+</config>
