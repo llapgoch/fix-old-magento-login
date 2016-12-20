@@ -13,6 +13,11 @@
                     <session>Iweb_Loginfix_Model_Customer_Session</session>
                 </rewrite>
             </customer>
+            <admin>
+                <rewrite>
+                    <session>Iweb_Loginfix_Model_Admin_Session</session>
+                </rewrite>
+            </admin>
         </models>
     </global>
 </config>
